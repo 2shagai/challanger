@@ -60,4 +60,4 @@ RUN service ssh start
 EXPOSE 21 22
 
 # Set up a script or entry point to start the red_user challenge
-CMD ["/bin/bash"]
+CMD ["/bin/bash tail -d /dev/null"]
